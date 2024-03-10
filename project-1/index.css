@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    /* ctrl shift i:-for take out color from website */
+    background-color: blanchedalmond ;
+    display: flex;
+}
+
+#part1{
+    /* background-color: rgb(65, 160, 130); */
+    height: 100%;
+    width: 24%;
+}
+
+#part2{
+    background-color: rgb(233, 235, 224);
+    height: 100%;
+    width: 68%;
+    background-image:url(https://media.istockphoto.com/id/1203622010/photo/penetrating-look-of-blue-eyed-young-woman-facial-treatment-cosmetology-beauty-technologies.jpg?s=612x612&w=0&k=20&c=ugTDDzyk-QMH2tuyXE3DenyPOfID3NUaPjaTzzVo3Yk=);
+    background-position: center;
+    background-size: cover; 
+    
+}
+#overlay{
+    height: 100%;
+    width: 100%;
+    opacity: 0.3;
+
+}
+
+#part3{
+    /* background-color: rgb(227, 162, 65); */
+    height: 100%;
+    width: 8%;
+}
+
+#text-id{
+    /* height: 300px; */
+    width: 400px;
+    position: absolute;
+    text-transform: uppercase;
+    background-color: transparent; 
+    left:10% ;
+    top: 30%;
+    /* transform: translate(0,-50%); */
+}
+#text-id h1{
+font-size: 80px;
+font-weight: 900;
+font-family: Georgia, 'Times New Roman', Times, serif;
+line-height: 80px;
+letter-spacing: 5px;
+color: white;
+}
+
+#small-img{
+    height: 350px;
+    width: 300px;
+    background-color: rgb(143, 174, 174);
+    background-image: url(https://media.istockphoto.com/id/504785430/photo/pretty-girl-with-unusual-hairstyle-bright-makeup-red-lips-and.jpg?s=612x612&w=0&k=20&c=8u9VfePmFtsw2saKKuc0hyk-0Tf2C2WA3gfNmJVyVnI=);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    transform: translate(0,-50%);
+    opacity: 0.8;
+}
+#vertical-text{
+    position: absolute;
+    /* width: 100%; */
+    background-color: transparent;
+    transform: rotate(90deg);
+    /* transform-origin: 0% 0%; */
+    /* top: -6%; */
+   
+} 
+/* #vertical-text h1{
+    font-size: 80px;
+    font-weight: 600;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #fff;
+    color: transparent;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 15px;
+    top: 50%;
+    right: 7%;
+    
+    transform-origin: 0% 0%;
+  }
+  */
+
+#nav{
+    display: flex;
+    position: absolute;
+    width: 300px;
+   align-items: center;
+    justify-content: space-between;
+    background-color:transparent;
+    left: 5%;
+    top: 5%;
+
+}
+#nav img{
+    height: 50px;
+}
+#nav h5{
+    top: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #fff;
+
+}
